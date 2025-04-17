@@ -13,7 +13,7 @@ const resultado = computed(() => [
     {
         SalarioHora: SueldoPorHora.value,
         SalarioDia: SueldoDiario.value,
-        SalarioQuincenal: SueldoDiario.value * 15,
+        SalarioQuincenal: SueldoQuincenal.value,
         SalarioMensual: SueldoMensual.value,
     },
 ]);
